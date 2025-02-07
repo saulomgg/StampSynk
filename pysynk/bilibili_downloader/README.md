@@ -10,7 +10,42 @@ All scripts available here are **100% created by me** and will continue to be im
 - Download Bilibili videos in the best available quality  
 - Simple and easy-to-use GUI  
 - Automatic merging of video and audio  
-- No need for a web browser—just paste the link and download  
+- No need for a web browser—just paste the link and download
+
+- ## ⚙️ Requirements  
+
+To ensure proper video and audio merging, **FFmpeg is required**. Please install it using one of the following methods:  
+
+### 🔧 Install FFmpeg on Windows  
+
+#### ✅ Method 1: Install via Winget (Recommended)  
+Simply open **Command Prompt (cmd)** or **PowerShell** and run:  
+  winget install "FFmpeg (Essentials Build)"
+
+### ✅ Method 2: Manual Installation  
+
+1. Download **FFmpeg** from the official website: [ffmpeg.org](https://ffmpeg.org/download.html).  
+2. Extract the downloaded files and move them to a permanent location, e.g., `C:\ffmpeg`.  
+3. Add FFmpeg to the **system's PATH**:  
+   - Open **Start Menu** and search for **Environment Variables**.  
+   - Click on **Edit the system environment variables**.  
+   - In the **System Properties** window, click on **Environment Variables**.  
+   - Under **System Variables**, find and select **Path**, then click **Edit**.  
+   - Click **New**, then enter:  
+   
+     C:\ffmpeg\bin
+   
+   - Click **OK** to save the changes.  
+
+4. Verify the installation:  
+   - Open **Command Prompt** and run:  
+   
+     ffmpeg -version
+    
+   - If the version information appears, **FFmpeg is installed correctly!** ✅  
+
+Now your **Bilibili Video Downloader** is ready to go! 🚀  
+
 
 ## 🔧 Installation & Usage  
 1. **Download the script** from [stampsynk.com](https://stampsynk.com)
